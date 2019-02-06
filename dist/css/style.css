@@ -1,0 +1,32 @@
+.wrap {
+    display: grid;
+  }
+  
+  .item {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    background-size: cover;
+    background-color: #E0E0E0;
+  }
+  .item-heart {
+      background-image: url(../img/1.png);
+  }
+  
+  .item-atom {
+      background-image: url(../img/2.png);
+  }
+  
+  .item-grass {
+      background-image: url(../img/3.png);
+  }
+  
+  .item-paw {
+      background-image: url(../img/4.png);
+  }
+  
+  .active {
+    background-color: #fff;
+  }
+  
